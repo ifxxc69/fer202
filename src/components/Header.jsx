@@ -1,4 +1,5 @@
 import {Navbar, Nav, Form, Button} from 'react-bootstrap'
+import {movies} from '../data'
 
 function Header() {
   return (
@@ -10,8 +11,11 @@ function Header() {
             <Nav.Link className='text-white' href="#home">CONTACT US</Nav.Link>
 
         </Nav>
-        <Form.Control className='me-4' type="search" placeholder="Search..." />
-        <Button variant='outline-light'>Search</Button>
+        <Form className ='d-flex'>
+          <Form.Control className='me-4 mr-sm-2' type="search" placeholder="Search..." />
+        <Button className='me-4' variant='outline-light'>SEARCH</Button>
+        </Form>
+        
     </Navbar>
 
   )

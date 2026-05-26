@@ -1,5 +1,5 @@
  
- const movies = [
+ export const movies = [
        {
         "id":1,
       "title": "The Matrix",
@@ -22,7 +22,7 @@
       "rating":  8.5
     }
     ]
-    const books= [
+    export const books= [
     {
       "id": 1,
       "title": "Clean Code",
@@ -31,7 +31,7 @@
       "availableCopies": 3,
       "totalCopies": 5,
       "rating": 4.8,
-      "image": "images/book1.png"
+      "image": "images/book8.jpg"
     },
     {
       "id": 2,
@@ -40,7 +40,7 @@
       "availableCopies": 1,
       "totalCopies": 3,
       "rating": 4.6,
-      "image": "ShowCover.jfif"
+      "image": "images/book3.png"
     },
     {
       "id": 3,
@@ -50,7 +50,7 @@
       "availableCopies": 2,
       "totalCopies": 2,
       "rating": 4.7,
-      "image": "9781846146701.jpg"
+      "image": "images/book5.jpg"
     },
     {
       "id": 4,
@@ -60,7 +60,7 @@
       "availableCopies": 4,
       "totalCopies": 6,
       "rating": 4.5,
-      "image": "81IGFC6oFmL.jpg"
+      "image": "images/book7.jpg"
     },
     {
       "id": 5,
@@ -70,7 +70,7 @@
       "availableCopies": 2,
       "totalCopies": 5,
       "rating": 4.3,
-      "image": "510-kxVoGFL.jpg"
+      "image": "images/book6.jpg"
     },
     {
       "id": 6,
@@ -80,8 +80,8 @@
       "availableCopies": 5,
       "totalCopies": 5,
       "rating": 4.9,
-      "image": "R.jfif"
+      "image": "images/book2.png"
     }
   ]
 
-export { movies, books };
+
