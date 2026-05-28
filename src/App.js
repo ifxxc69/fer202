@@ -5,19 +5,15 @@ import Bai5 from './components/Bai5';
 import Ex1 from './components/Ex1';
 import Box from './components/Box';
 import Hello from './components/Hello';
+import Ex2 from './components/Ex2';
+import Ex3 from './components/Ex3';
 function App() {
   return (
     
       <Container>
        <Header />
-          
-       
-        <Box width={300} height={400} color='pink' title='Cow' />
-        <Box width={200} height={100} color='blue' title='Dog' />
-        <Box title='Cat' />
-        <Hello who='Cham' age={21} />
-
-
+        <Bai4/>
+       <Ex3/>
       </Container>
     
   );

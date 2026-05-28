@@ -4,6 +4,7 @@ import { Table, Modal, Button, ModalBody } from 'react-bootstrap'
 import { students } from '../data'
 
 function Ex3() {
+    
     const [show, setShow] = useState(false)
     const [selectedStudent, setSelectedStudent] = useState(null) 
 
@@ -36,7 +37,7 @@ function Ex3() {
                     ))} {/* Added the missing closing parenthesis here */}
                 </tbody>
             </Table>
-
+           
             <Modal show={show} onHide={() => setShow(false)}>
                 <Modal.Header closeButton>
                     <Modal.Title>Student detail</Modal.Title>

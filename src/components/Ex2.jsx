@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {students } from '../data'
 function Ex2(props) {
     const {name, gender, image} = props
   return (
