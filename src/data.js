@@ -85,3 +85,64 @@
   ]
 
 
+export const items = [
+    {
+        name: 'To Hai Ha',
+        gender: true,
+        image: 'images/anh1.png'
+    },
+    {
+        name: 'Vu Nam Anh',
+        gender: true,
+        image: 'images/anh2.png'
+    },
+    {
+        name: 'Lai thi teo',
+        gender: false,
+        image: 'images/anh2.png'
+    }
+];
+
+export const students = [
+    {
+      id: "S001",
+      name: "Nguyen Van A",
+      email: "a@example.com",
+      gender: "Male",
+      dob: "10/10/2000",
+      class: "Fall 2025 - DB Systems (A)",
+    },
+    {
+      id: "S002",
+      name: "Tran Thi B",
+      email: "b@example.com",
+      gender: "Female",
+      dob: "21/9/2001",
+      class: "Fall 2025 - DB Systems (A)",
+    },
+    {
+      id: "S003",
+      name: "Le van C",
+      email: "c@example.com",
+      gender: "Male",
+      dob: "12/7/2002",
+      class: "Fall 2025 - DB Systems (A)",
+    },
+    {
+      id: "S004",
+      name: "Lai Thi D",
+      email: "d@example.com",
+      gender: "Female",
+      dob: "23/8/2001",
+      class: "Fall 2025 - Operating Systems",
+    },
+    {
+      id: "S005",
+      name: "Bui Lan E",
+      email: "e@example.com",
+      gender: "Female",
+      dob: "18/4/2001",
+      class: "Fall 2025 - Operating Systems",
+    },
+  ];
+
