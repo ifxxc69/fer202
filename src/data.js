@@ -145,4 +145,46 @@ export const students = [
       class: "Fall 2025 - Operating Systems",
     },
   ];
+export const directors= [
+    {
+      "id": 1,
+      "FullName": "David Gordon Green",
+      "Male": true,
+      "Dob": "1975-04-09",
+      "Nationality": "USA",
+      "Description": "David Gordon Green was born on April 9, 1975 in Little Rock, Arkansas, USA. He is a producer and director, known for Sát Nhân Halloween (2018), Halloween Kills (2021) and George Washington (2000)."
+    },
+    {
+      "id": 2,
+      "FullName": "Aaron Horvath",
+      "Male": true,
+      "Dob": "1980-08-19",
+      "Nationality": "USA",
+      "Description": "No photo available. Represent Aaron Horvath? Add or change photos at IMDbPro\r\nSEE RANK\r\nAaron Horvath\r\nProducer | Writer | Animation Department\r\n+ Add or change photo on IMDbPro »\r\nAaron Horvath was born on August 19, 1980 in California, USA. He is a producer and writer, known for Biet Doi Sieu Anh Hung Teen Titans (2018), Biet Doi Thieu Nien Titan Xuat Kich! (2013) and Naruto."
+    },
+    {
+      "id": 4,
+      "FullName": "David Bruckner",
+      "Male": true,
+      "Dob": "1981-08-19",
+      "Nationality": "England",
+      "Description": "David Bruckner is known for The Night House (2020), Nghi Lễ Tế Thần (2017) and Southbound (2015)."
+    },
+    {
+      "id": 5,
+      "FullName": "Mike Barker",
+      "Male": true,
+      "Dob": "1965-11-29",
+      "Nationality": "England",
+      "Description": "Mike Barker was born on November 29, 1965 in England, UK. He is a director and producer, known for Fargo (2014) and Broadchurch (2013)."
+    },
+    {
+      "id": 6,
+      "FullName": "Joseph Kosinski",
+      "Male": true,
+      "Dob": "1974-05-03",
+      "Nationality": "USA",
+      "Description": "Joseph Kosinski is a director whose uncompromising style has quickly made a mark in the filmmaking zeitgeist. His feature film debut, \"Tron: Legacy\" for Walt Disney Studios, grossed over $400 million worldwide and was nominated for several awards, including an Academy Award for Sound Editing and a Grammy for the score by Daft Punk."
+    }
+  ] 
 
