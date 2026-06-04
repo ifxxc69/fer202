@@ -16,6 +16,7 @@ import Director from './components/Director';
 import Star from './components/Star';
 import Movies from './components/Movies';
 import Hook2 from './components/Hook2';
+import MovieDetail from './components/MovieDetail';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Routes>
            <Route path="/bai4" element={<Bai4 />} />
            <Route path="/bai5" element={<Bai5 />} />
+           <Route path="/movies/:id" element={<MovieDetail />} />
            <Route path="/director" element={<Director />} />
           </Routes>
   

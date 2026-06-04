@@ -1,5 +1,6 @@
 import { Card, Button, Row, Col } from 'react-bootstrap';
 import { movies } from '../data';
+import { Link } from 'react-router-dom';
 
 function Bai4() {
   return (
@@ -17,7 +18,7 @@ function Bai4() {
               <p><strong>Duration:</strong> {m.duration}</p>
               <p><strong>Director:</strong> {m.director}</p> {/* Đã sửa "Direactor" -> "Director" */}
               <p><strong>Rating:</strong> {m.rating}</p>
-              <Button style={{ width: 150 }} variant="primary">View Showtimes</Button> {/* Đã sửa "B_tton" -> "Button" */}
+              <Button as={Link} to={`/movies/${m.id}`} style={{ width: 150 }} variant="primary">View Details</Button>
             </Card>
           </Col>
         ))}
