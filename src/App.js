@@ -13,13 +13,16 @@ import {students} from './data'
 import StudentForm from './components/StudentForm';
 import { directors } from './data';
 import Director from './components/Director';
+import Star from './components/Star';
+import Movies from './components/Movies';
+import Hook2 from './components/Hook2';
+
 function App() {
   return (
   
       <Container>
-        <Director />
-
-
+        <Header />
+      <Hook2 />
       </Container>
     
   );
