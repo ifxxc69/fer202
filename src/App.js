@@ -16,15 +16,20 @@ import Director from './components/Director';
 import Star from './components/Star';
 import Movies from './components/Movies';
 import Hook2 from './components/Hook2';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-  
+    <BrowserRouter>
       <Container>
         <Header />
-      <Hook2 />
+        <Routes>
+           <Route path="/bai4" element={<Bai4 />} />
+           <Route path="/bai5" element={<Bai5 />} />
+           <Route path="/director" element={<Director />} />
+          </Routes>
+  
       </Container>
-    
+    </BrowserRouter>
   );
 }
 
