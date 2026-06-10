@@ -427,3 +427,19 @@ export const stars= [
       "StarId": 10
     }
   ]
+
+export const menuButtons = [
+  { id: 1, label: 'Directors', path: '/director', variant: 'success' },
+  { id: 2, label: 'Producers', path: '/producers', variant: 'primary' },
+  { id: 3, label: 'Stars', path: '/stars', variant: 'danger' },
+  { id: 4, label: 'Genres', path: '/genres', variant: 'secondary' },
+  { id: 5, label: 'Movies', path: '/movie', variant: 'warning', textColor: 'dark' },
+];
+
+export const genreList = [
+  'Action',
+  'Horror',
+  'Comedy',
+  'Drama',
+  'Sci-Fi',
+];

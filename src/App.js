@@ -14,22 +14,29 @@ import StudentForm from './components/StudentForm';
 import { directors } from './data';
 import Director from './components/Director';
 import Star from './components/Star';
+import Producer from './components/Producer';
+import Genre from './components/Genre';
 import Movies from './components/Movies';
 import Hook2 from './components/Hook2';
 import MovieDetail from './components/MovieDetail';
+import Movie from './components/Movie';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
       <Container>
-        <Header />
+        {/* <Header /> */}
         <Routes>
-           <Route path="/bai4" element={<Bai4 />} />
+           {/* <Route path="/bai4" element={<Bai4 />} />
            <Route path="/bai5" element={<Bai5 />} />
-           <Route path="/movies/:id" element={<MovieDetail />} />
+           <Route path="/movies/:id" element={<MovieDetail />} /> */}
+           <Route path="/" element={<Movie />} />
+           <Route path="/movie" element={<Movie />} />
            <Route path="/director" element={<Director />} />
-          </Routes>
-  
+           <Route path="/stars" element={<Star />} />
+           <Route path="/producers" element={<Producer />} />
+           <Route path="/genres" element={<Genre />} />
+        </Routes>
       </Container>
     </BrowserRouter>
   );
